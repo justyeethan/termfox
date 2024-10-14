@@ -4,11 +4,10 @@
   border-radius: var(--rounding);
   padding: 8px;
   transition: border-color var(--border-transition);
-  &:hover {
-    color: var(--accent);
-    border-color: var(--accent) !important;
-  }
+  color: var(--accent);
+  border-color: var(--accent) !important;
 }
+
 #tabbrowser-tabbox::before {
   content: "main";
   background-color: var(--lwt-accent-color);
@@ -18,4 +17,3 @@
   z-index: 2;
   font-size: 1.15em;
 }
-

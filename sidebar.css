@@ -3,10 +3,8 @@
   border: var(--border-width) solid var(--border);
   border-radius: var(--rounding);
   transition: border-color var(--border-transition);
-  &:hover {
-    color: var(--accent);
-    border-color: var(--accent) !important;
-  }
+  color: var(--accent);
+  border-color: var(--accent) !important;
   &::before {
     content: "tabs";
     background-color: var(--lwt-accent-color);

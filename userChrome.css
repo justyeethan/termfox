@@ -4,6 +4,7 @@
 @import url("urlbar.css");
 @import url("sidebar.css");
 @import url("browser.css");
+@import url("devTools.css");
 
 * {
   font-family: "SF Mono", monospace !important;
