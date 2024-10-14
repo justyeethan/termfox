@@ -6,9 +6,12 @@ _a port of spotify tui to firefox_
 > This was written in a couple of hours and only tested using rose-pine moon
 > theme, so it might not work as intended for every theme, PR's are welcome!
 
+Modified by Ethan to fix the border colors and styles
+
 ## preview
 
-![image](https://github.com/adriankarlen/textfox/blob/main/misc/preview.png)
+<img width="1490" alt="image" src="https://github.com/user-attachments/assets/5269c25e-aa3e-4f53-a2a2-b8ad178d01ae">
+
 
 ## Prequisites
 
