@@ -1,4 +1,4 @@
-# textfox
+# textfox but personalized for my preferences
 
 _a port of spotify tui to firefox_
 
