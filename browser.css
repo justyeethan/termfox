@@ -1,8 +1,8 @@
-#appcontent {
-  margin: 8px;
+#tabbrowser-tabbox {
+  margin: 8px !important;
   border: var(--border-width) solid var(--border);
   border-radius: var(--rounding);
-  padding: 8px;
+  padding: 8px !important;
   transition: border-color var(--border-transition);
   color: var(--accent);
   border-color: var(--accent) !important;
@@ -12,8 +12,20 @@
   content: "main";
   background-color: var(--lwt-accent-color);
   position: absolute;
-  margin: -20px 4px;
-  padding: 0 4px;
+  margin: -20px 4px !important;
+  padding: 0 4px !important;
   z-index: 2;
   font-size: 1.15em;
+}
+
+:root[inFullscreen="true"] {
+  #tabbrowser-tabbox {
+    margin: 0;
+    border: none;
+    padding: 0;
+    transition: none;
+    &::before {
+      display: none;
+    }
+  }
 }
